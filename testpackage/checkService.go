@@ -6,7 +6,7 @@ import (
 	mysql_services "github.com/susanta2022/rlb-go-service/services"
 )
 
-func main() {
+func check_test_service() {
 	mysql_services.PrintConnectionStatus()
-	fmt.Print("susanta")
+	fmt.Print("response from rlb-service-test")
 }
