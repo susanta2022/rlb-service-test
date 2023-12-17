@@ -2,9 +2,13 @@ package testpackage
 
 import (
 	"fmt"
+
+	mysql_services "github.com/susanta2022/rlb-go-service/services"
 )
 
-func checkTestService() {
+func CheckTestService() {
 
-	fmt.Print("response from rlb-service-test >>>>")
+	mysql_services.PrintConnectionStatus()
+
+	fmt.Println("response from rlb-service-test >>>>")
 }
