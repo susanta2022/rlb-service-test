@@ -8,5 +8,5 @@ import (
 
 func check_test_service() {
 	mysql_services.PrintConnectionStatus()
-	fmt.Print("response from rlb-service-test")
+	fmt.Print("response from rlb-service-test >>>>")
 }
